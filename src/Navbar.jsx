@@ -1,17 +1,18 @@
 import { useState } from 'react'
-import './Navbar.css'
+import './styles/Navbar.css'
 import React from 'react'
-
+import cow from './assets/cow.png'
 function Navbar(){
     return(
         <header>
             <div class = 'nav-links'>
             <nav>
-                <ul>
-                    <li><img src=''></img></li>
-                    <li href='/#home'>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
+                <ul>   
+                    <div class = 'logo'>
+                       <li><img src={cow}></img></li>
+                       
+                    </div>
+                    <li>moove</li>
                 </ul>
             </nav>
             </div>
